@@ -1,0 +1,37 @@
+.tech-highlights {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.tech-highlights h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 22px;
+}
+
+.tech-highlights h2 span {
+  color: #7bdff6;
+}
+
+.tech-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+.tech-highlight-card {
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(15, 15, 15, 0.42);
+}
+
+.tech-highlight-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.tech-highlight-card p {
+  line-height: 1.5;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
